@@ -71,6 +71,11 @@ body {
     width: 80%;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
 li {
     background: white;
     margin: 10px 0;
