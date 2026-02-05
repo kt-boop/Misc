@@ -90,3 +90,37 @@ li:hover {
     box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 }
 
+.hover-word {
+    position: relative;
+    cursor: pointer;
+    color: #a18cd1;
+    font-weight: bold;
+}
+
+.hover-info {
+    position: absolute;
+    left: 150%;
+    bottom: 125%;              
+    transform: translateX(-50%);
+    background: white;
+    padding: 6px 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 15px;
+    max-width: 220px;      
+    white-space: normal;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.hover-word:hover .hover-info {
+    opacity: 1;
+}
+
+.hover-info {
+    transform: translateX(-50%) translateY(5px);
+}
+
+
