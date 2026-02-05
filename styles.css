@@ -77,7 +77,7 @@ ul, ol {
 }
 
 li {
-    background: white;
+    background: rgba(255, 255, 255, 0.682);
     margin: 10px 0;
     padding: 12px 16px;
     border-radius: 12px;
@@ -122,5 +122,15 @@ li:hover {
 .hover-info {
     transform: translateX(-50%) translateY(5px);
 }
+
+.img-box {
+    overflow: hidden;        
+    border-radius: 15px;     
+    display: inline-block;
+}
+
+
+
+
 
 
