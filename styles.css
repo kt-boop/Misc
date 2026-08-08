@@ -74,8 +74,12 @@ body {
 .card-4 {
     background: rgb(174, 65, 236);
     border-radius: 15px;
-    margin: 20px auto;
     width: 80%;
+}
+
+.parent-container {
+  display: grid;
+  place-items: center; /* Centers both horizontally & vertically */
 }
 
 .card-5 {
