@@ -72,18 +72,12 @@ body {
 }
 
 .card-4 {
-    background: rgb(174, 65, 236);
+    background: rgb(248, 89, 240);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     margin: 20px auto;
     width: 80%;
-}
-
-.card-5 {
-    background: rgb(174, 65, 236);
-    border-radius: 15px;
-    margin: 20px auto;
 }
 
 ul, ol {
