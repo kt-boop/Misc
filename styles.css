@@ -75,11 +75,8 @@ body {
     background: rgb(174, 65, 236);
     border-radius: 15px;
     width: 80%;
-}
-
-.parent-card {
-  display: grid;
-  place-items: center; 
+    display: grid;
+    place-items: center; 
 }
 
 .card-5 {
