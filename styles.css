@@ -71,23 +71,6 @@ body {
     width: 80%;
 }
 
-.card-4 {
-    background: rgb(218, 60, 239);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    margin: 20px auto;
-    width: 80%;
-}
-
-.card-5 {background: rgb(255, 62, 159);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    margin: 20px auto;
-    width: 80%;
-}
-
 ul, ol {
     list-style: none;
     padding: 0;
@@ -108,9 +91,10 @@ li:hover {
 }
 
 .hover-word {
-  position: relative;
-  display: inline-block; /* Crucial: stops the hover area from spanning the entire line width */
-  cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    color: #5e4596;
+    font-weight: bold;
 }
 
 .hover-info {
@@ -132,33 +116,8 @@ li:hover {
     z-index: 10;
 }
 
-.hover-word .hover-info {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
-  position: absolute;
-  bottom: 100%;                  
-  left: 50%;                     
-  transform: translateX(-50%);    
-  margin-bottom: 8px;            
-  background-color: #1f2937;     
-  color: #ffffff;                
-  font-size: 0.85rem;            
-  font-weight: normal;           
-  text-align: center;
-  line-height: 1.4;
-  padding: 6px 12px;
-  border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 9999;                 
-  white-space: nowrap;           
-  max-width: 250px;              
-}
-
 .hover-word:hover .hover-info {
-  visibility: visible;
-  opacity: 1;
+    opacity: 1;
 }
 
 .hover-info {
