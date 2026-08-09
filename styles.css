@@ -109,6 +109,7 @@ li:hover {
 
 .hover-word {
     position: relative;
+    display: inline-block;
     cursor: pointer;
     color: #5e4596;
     font-weight: bold;
@@ -133,8 +134,19 @@ li:hover {
     z-index: 10;
 }
 
-.hover-word:hover .hover-info {
-    opacity: 1;
+.hover-word .hover-info {
+  position: absolute;
+  bottom: 100%;                  
+  left: 50%;                     
+  transform: translateX(-50%);    
+  margin-bottom: 8px;            
+  background-color: #222222;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;            
+  white-space: nowrap;           
+  z-index: 10;
 }
 
 .hover-info {
