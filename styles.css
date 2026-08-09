@@ -135,20 +135,25 @@ li:hover {
 .hover-word .hover-info {
   visibility: hidden;
   opacity: 0;
-  pointer-events: none; 
+  pointer-events: none;
   transition: opacity 0.2s ease, visibility 0.2s ease;
   position: absolute;
   bottom: 100%;                  
   left: 50%;                     
   transform: translateX(-50%);    
   margin-bottom: 8px;            
-  background-color: #222222;
-  color: #ffffff;
+  background-color: #1f2937;     
+  color: #ffffff;                
+  font-size: 0.85rem;            
+  font-weight: normal;           
+  text-align: center;
+  line-height: 1.4;
   padding: 6px 12px;
   border-radius: 6px;
-  font-size: 0.85rem;
-  white-space: nowrap;            
-  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;                 
+  white-space: nowrap;           
+  max-width: 250px;              
 }
 
 .hover-word:hover .hover-info {
